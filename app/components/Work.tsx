@@ -1,15 +1,17 @@
 const projects = [
   {
-  name: "Appointly",
-  description: "A full-stack booking platform that lets users schedule appointments online. Built with React frontend and Node.js backend.",
-  tech: ["React", "Node.js", "PostgreSQL", "Express"],
-  live: "https://your-deployed-site.com",
-},
+    name: "Appointly",
+    description: "A full-stack booking platform that lets users schedule appointments online. Built with React frontend and Node.js backend.",
+    tech: ["React", "Node.js", "PostgreSQL", "Express"],
+    github: null,
+    live: "https://your-deployed-site.com",
+  },
   {
     name: "CCMASTER",
     description:
       "Chrome extension that allows users to customize subtitle appearance on any video streaming platform. Built with React and Chrome Extension APIs.",
     tech: ["React", "Node.js", "PostgreSQL"],
+    github: null,
     live: "https://chromewebstore.google.com/detail/ccmaster/bjhillnmacglldmofjehkbhpkljbcmie",
   },
   {
@@ -17,6 +19,7 @@ const projects = [
     description:
       "Map app that allows users to create and share custom maps with personalized markers and routes. Built with React and Mapbox GL JS.",
     tech: ["Python", "FastAPI", "Redis"],
+    github: null,
     live: "#",
   },
 ];
