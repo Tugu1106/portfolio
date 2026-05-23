@@ -4,8 +4,8 @@ import { useState } from "react";
 
 const jobs = [
   {
-    company: "University",
-    url: "#",
+    company: "National University of Mongolia",
+    url: "https://portal.num.edu.mn/en/",
     role: "Software Engineer",
     range: "2020 — 2025",
     points: [
@@ -70,7 +70,7 @@ export default function Experience() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              @ {job.company}
+              {job.company}
             </a>
           </h3>
           <p className="font-mono text-xs text-secondary mb-6 tracking-wider">
